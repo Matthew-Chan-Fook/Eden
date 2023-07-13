@@ -1172,16 +1172,22 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
     }
     .custom-btn{
         display: inline;
-        width: 120px;
-        padding-left: 6px;
-        padding-right: 6px;
+        width: 26%;
+        padding-left: 1px;
+        padding-right: 1px;
         padding-bottom: 35px;
-        font-size: 16px;
+        font-size: 14px;
+        margin: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        top: -100px;
     }
     .btn_main{
         position: relative;
         text-align: center;
-        top: 120px;
+        top: 160px;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     .banner_taital{
         font-size: 60px;
@@ -1209,12 +1215,12 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
     .banner_img img {
         width: 50%;
         position: relative;
-        top: -180px;
+        top: -100px;
     }
     .btn_main{
         position: relative;
         text-align: center;
-        top: 118px;
+        top: 180px;
     }
     .banner_taital{
         font-size: 60px;
@@ -1246,3 +1252,7 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
 #team-title{
     color: #fff;
 }
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
