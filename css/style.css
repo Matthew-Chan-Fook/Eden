@@ -144,6 +144,7 @@ a,
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px 20px 0px 0px;
 }
 
  :focus {
@@ -577,7 +578,7 @@ button {
     padding: 40px 20px 30px 20px;
     box-shadow: 0px 0px 30px 0px;
     position: absolute;
-    top: 1120px;
+    top: 2194px;
 }
 
 .image_iman {
@@ -637,7 +638,8 @@ button {
 .client_section {
     width: 100%;
     float: left;
-    background-image: url(../images/client-bg.png);
+    background-image: url(../images/asfalt-light-texture.png);
+    background-color: #6c9a8b;
     height: auto;
     background-size: 100% 100%;
     padding-bottom: 50px;
@@ -674,7 +676,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #3b3b3b;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -682,7 +684,7 @@ button {
     width: 75%;
     float: left;
     font-size: 16px;
-    color: #3b3b3b;
+    color: #fff;
     margin: 0px;
 }
 
@@ -707,6 +709,7 @@ button {
     background-color: #ffffff;
     box-shadow: 0px 0px 20px 0px;
     padding: 0px 0px 30px 0px;
+    border-radius: 20px;
 }
 
 .blog_img {
@@ -721,7 +724,7 @@ button {
     text-transform: uppercase;
     padding: 20px 0px;
     background-color: #6c9a8b;
-    border-radius: 8px;
+    border-radius: 4px;
     position: absolute;
     top: -10px;
     left: 5px;
@@ -789,7 +792,7 @@ button {
     background-color: #efefef;
     padding: 11px 20px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -807,7 +810,7 @@ input.mail_text::placeholder {
     border: 0px;
     height: 110px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1211,7 +1214,7 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
     .btn_main{
         position: relative;
         text-align: center;
-        top: 80px;
+        top: 118px;
     }
     .banner_taital{
         font-size: 60px;
@@ -1239,4 +1242,7 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
 }
 .blog_box{
     margin-bottom: 30px;
+}
+#team-title{
+    color: #fff;
 }
