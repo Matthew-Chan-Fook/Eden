@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>Eden Ésthétique</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- font css -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">A Propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="coffees.html">Produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+        <div class="container">
+          <div id="banner_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="banner_img">
+                      <img src="images/Lotus3d.png" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="banner_taital_main">
+                      <h1 class="banner_taital">Eden</h1>
+                      <h5 class="tasty_text">Un véritable moment de détente</h5>
+                      <p class="banner_text">Votre nouveau coin de paradis</p>
+                      <div class="btn_main">
+                        <button class="custom-btn btn-6">
+                          <span>À Propos</span>
+                        </button>
+                        <button class="custom-btn btn-1">Contact</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Deuxième slide -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="banner_img">
+                      <img src="images/lotion3d.png" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="banner_taital_main">
+                      <h1 class="banner_taital">Eden</h1>
+                      <h5 class="tasty_text">Prenez soin de vous</h5>
+                      <p class="banner_text">
+                        Inspirez, expirez, et profitez de nos offres dès
+                        maintenant
+                      </p>
+                      <div class="btn_main">
+                        <button class="custom-btn btn-6">
+                          <span>Nos Services</span>
+                        </button>
+                        <button class="custom-btn btn-1">Réserver</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#banner_slider"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#banner_slider"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- banner section end -->
+    </div>
+    <!-- header section end -->
+    <!-- coffee section start -->
+    <!-- <div class="coffee_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <h1 class="coffee_taital">Nos Services</h1>
+          <div class="bulit_icon"><img src="images/separateur-lotus.png" /></div>
+        </div>
+      </div>
+      <div class="coffee_section_2">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-1.png" /></div>
+                    <h3 class="types_text">Massage dos relaxant</h3>
+                    <p class="looking_text">Dites au revoir à vos tensions</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-2.png" /></div>
+                    <h3 class="types_text">Soin du visage</h3>
+                    <p class="looking_text">Soin tonifiant et massage</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-3.png" /></div>
+                    <h3 class="types_text">Épilation des sourcils</h3>
+                    <p class="looking_text">Votre visage mis en valeur</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-4.png" /></div>
+                    <h3 class="types_text">Soin des pieds</h3>
+                    <p class="looking_text">Masques spéciaux et massage</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-1.png" /></div>
+                    <h3 class="types_text">Maquillage</h3>
+                    <p class="looking_text">
+                      Pour les petites et grandes occasions
+                    </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-2.png" /></div>
+                    <h3 class="types_text">Soin peaux grasses</h3>
+                    <p class="looking_text">Chouchoutez votre peau</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-3.png" /></div>
+                    <h3 class="types_text">Épilation du corps</h3>
+                    <p class="looking_text">Jambes, ventre, aisselles,...</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="coffee_img"><img src="images/img-4.png" /></div>
+                    <h3 class="types_text">Soin des ongles</h3>
+                    <p class="looking_text">Permanents et semi-permanents</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#main_slider"
+            role="button"
+            data-slide="prev"
+          >
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#main_slider"
+            role="button"
+            data-slide="next"
+          >
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    coffee section end -->
+
+    <!-- about section start -->
+    <div class="about_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="about_taital">À Propos de Nous</h1>
+            <div class="bulit_icon">
+              <img src="images/separateur-lotus.png" />
+            </div>
+          </div>
+        </div>
+        <div class="about_section_2 layout_padding">
+          <div class="image_iman">
+            <img src="images/salon.jpg" class="about_img" />
+          </div>
+          <div class="about_taital_box">
+            <h1 class="about_taital_1">C'est quoi, Eden ?</h1>
+            <p class="about_text">
+              Bienvenue à "L'Eden", un véritable havre de paix au cœur de votre
+              ville. Plongez dans une expérience sensorielle unique où le
+              bien-être et la beauté se rencontrent harmonieusement. Dès que
+              vous franchissez nos portes, vous êtes enveloppé.e par une
+              ambiance apaisante et chaleureuse. Les senteurs envoûtantes, les
+              douces mélodies et les couleurs apaisantes vous transportent
+              instantanément dans un état de relaxation profonde. Laissez nos
+              experts prendre soin de vous avec des soins exquis, des massages
+              indulgents et des rituels de beauté revitalisants. Ici, chaque
+              visite est une évasion bien méritée vers un paradis de détente
+              absolue.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section end -->
+    <!-- client section start -->
+    <div class="client_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="about_taital">Notre merveilleuse équipe</h1>
+            <div class="bulit_icon">
+              <img src="images/separateur-lotus-2.png" />
+            </div>
+          </div>
+        </div>
+        <div class="client_section_2">
+          <div class="client_taital_main">
+            <div class="client_left">
+              <div class="client_img"><img src="images/julien2.jpg" /></div>
+            </div>
+            <div class="client_right">
+              <h3 class="moark_text">Julien Hoareau</h3>
+              <p class="client_text">
+                Faites la connaissance de Julien, notre masseur talentueux. Avec
+                ses mains expertes et son intuition pour trouver les nœuds de
+                tension, il vous transporte dans un état de détente totale.
+              </p>
+            </div>
+          </div>
+          <div class="client_taital_main">
+            <div class="client_left">
+              <div class="client_img"><img src="images/sophie2.jpg" /></div>
+            </div>
+            <div class="client_right">
+              <h3 class="moark_text">Sophie Payet</h3>
+              <p class="client_text">
+                Rencontrez Sophie, notre esthéticienne passionnée. Avec son
+                toucher délicat et ses connaissances approfondies en soins de la
+                peau, elle saura révéler votre éclat naturel.
+              </p>
+            </div>
+          </div>
+          <div class="client_taital_main">
+            <div class="client_left">
+              <div class="client_img"><img src="images/laura2.jpg" /></div>
+            </div>
+            <div class="client_right">
+              <h3 class="moark_text">Laura Boyer</h3>
+              <p class="client_text">
+                Découvrez Laura, notre spécialiste de la manucure. Avec sa
+                précision méticuleuse et sa passion pour les ongles, elle crée
+                des designs personnalisés qui vous feront briller jusqu'au bout
+                des doigts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- client section end -->
+    <!-- blog section start -->
+    <div class="blog_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="about_taital">L'institut</h1>
+            <div class="bulit_icon"><img src="images/bulit-icon.png" /></div>
+          </div>
+        </div>
+        <div class="blog_section_2">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="blog_box">
+                <div class="blog_img"><img src="images/salon2.jpg" /></div>
+                <h4 class="date_text">25 Août</h4>
+                <h4 class="prep_text">Grande ouverture à Sacré Coeur</h4>
+                <p class="lorem_text">
+                  Nous sommes ravis de vous annoncer l'ouverture imminente de
+                  notre tout nouvel institut au cœur du centre commercial Sacré
+                  Coeur. Vous pourrez profiter de nos services !
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blog_box">
+                <div class="blog_img"><img src="images/promos.jpg" /></div>
+                <h4 class="date_text">25-30 Août</h4>
+                <h4 class="prep_text">Promotions spéciales ouverture</h4>
+                <p class="lorem_text">
+                  Du 25 au 30 août, profitez à des offres promotionnelles
+                  d'exception allant jusqu'à 60 % à l'occassion de l'ouverture
+                  de notre institut ! De quoi s'offrir un grand plaisir à petit
+                  prix !
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- blog section end -->
+    <!-- contact section start -->
+    <div class="contact_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="contact_taital">Contactez-nous</h1>
+            <div class="bulit_icon"><img src="images/bulit-icon.png" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="contact_section_2">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mail_section_1">
+                <input
+                  type="text"
+                  class="mail_text"
+                  placeholder="Votre Nom"
+                  name="Votre Nom"
+                />
+                <input
+                  type="text"
+                  class="mail_text"
+                  placeholder="Votre Email"
+                  name="Votre Email"
+                />
+                <input
+                  type="text"
+                  class="mail_text"
+                  placeholder="Numéro de téléphone"
+                  name="Numéro de téléphone"
+                />
+                <textarea
+                  class="massage-bt"
+                  placeholder="Message"
+                  rows="5"
+                  id="comment"
+                  name="Message"
+                ></textarea>
+                <div class="send_bt"><a href="#">Envoyer</a></div>
+              </div>
+            </div>
+            <div class="map_main">
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France"
+                  width="250"
+                  height="500"
+                  frameborder="0"
+                  style="border: 0; width: 100%"
+                  allowfullscreen=""
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact section end -->
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="address_text">Coordonnées</h1>
+            <p class="footer_text">
+              N'hésitez pas à nous contacter pour un moment de détente divin
+            </p>
+            <div class="location_text">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-phone" aria-hidden="true"></i
+                    ><span class="padding_left_10">0692 12 34 56 </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-envelope" aria-hidden="true"></i
+                    ><span class="padding_left_10">demo@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="form-group">
+              <textarea
+                class="update_mail"
+                placeholder="Your Email"
+                rows="5"
+                id="comment"
+                name="Your Email"
+              ></textarea>
+              <div class="subscribe_bt">
+                <a href="#"><img src="images/teligram-icon.png" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <p class="copyright_text">
+              2023 Tous droits réservés. Design par
+              <a href="https://html.design">Free Html Templates</a>
+            </p>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="footer_social_icon">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+  </body>
+</html>
