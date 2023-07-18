@@ -1252,7 +1252,22 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
 #team-title{
     color: #fff;
 }
-.swiper {
-    width: 600px;
+.mySwiper {
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .mySwiper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
     height: 300px;
+  }
+
+ .mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 0;
   }
