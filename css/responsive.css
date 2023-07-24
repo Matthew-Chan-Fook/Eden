@@ -192,8 +192,8 @@
     }
     .navbar-light .navbar-toggler {
         color: #fff;
-        border-color: #fb795f;
-        background: #fb795f;
+        border-color: #fff;
+        background: #fff;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
@@ -359,7 +359,7 @@
         font-size: 15px;
     }
     .client_section {
-        background: rgb(208, 125, 107, 0.6);
+        background: #6c9a8b;
         background-size: cover;
     }
     .client_left {

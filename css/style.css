@@ -245,7 +245,7 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 10px;
     font-size: 17px;
-    color: #a9a8a8;
+    color: #8D665F;
     border-radius: 5px;
     text-transform: uppercase;
 }
@@ -860,8 +860,8 @@ textarea#comment.massage-bt::placeholder {
     width: 100%;
     float: left;
     height: auto;
-    background-image: url(../images/footer-bg.png);
-    background-size: 100% 100%;
+    background-image: url(../images/footer-spa.jpg);
+    background-size: cover;
     padding: 90px 0px 0px 0px;
 }
 
@@ -870,7 +870,7 @@ textarea#comment.massage-bt::placeholder {
     float: left;
     text-align: center;
     font-size: 30px;
-    color: #fefefd;
+    color: #ffffff;
     font-weight: bold;
     padding-bottom: 50px;
 }
@@ -879,7 +879,8 @@ textarea#comment.massage-bt::placeholder {
     width: 60%;
     margin: 0 auto;
     font-size: 16px;
-    color: #fefefd;
+    font-weight: 600;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -897,6 +898,7 @@ textarea#comment.massage-bt::placeholder {
 
 .location_text li {
     font-size: 16px;
+    font-weight: 700;
     color: #ffffff;
     padding: 0px 0px 5px 0px;
 }
@@ -1274,3 +1276,14 @@ background: linear-gradient(0deg, rgb(121, 164, 150) 0%, rgb(108, 154, 139) 100%
     width: 100%;
     border-radius: 0;
   }
+.my-container-fluid{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.page-bottom{
+    padding-bottom: 0 !important;
+}
