@@ -5,7 +5,8 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-search {
-        padding: 15px 0px;
+        padding: 1
+        px 0px;
     }
 }
 
@@ -354,6 +355,7 @@
     }
     .about_img {
         margin-top: 40px;
+        border-radius: 20px 20px 0px 0px !important;
     }
     .about_text {
         font-size: 15px;
@@ -454,6 +456,7 @@
     }
     .about_img {
         margin-top: 40px;
+        border-radius: 20px 20px 0px 0px !important;
     }
     .callnow_bt {
         width: 140px;

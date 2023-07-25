@@ -1149,7 +1149,8 @@ button {
   /*1*/
 
   .btn-1 {
-  background: rgb(108, 154, 139);
+  background: rgb(108, 1
+  , 139);
   font-size: 20px;
   padding-bottom: 40px;
   background: linear-gradient(0deg, rgb(108, 154, 139) 0%, rgb(121, 164, 150) 100%);
